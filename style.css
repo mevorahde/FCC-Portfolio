@@ -330,6 +330,41 @@ footer ul {
     }
 }
 
+@media screen and (max-width: 790px) {
+    html {
+        font-size: 45%;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    #logo {
+        padding: 2rem;
+    }
+
+    .welcome-section-title {
+        padding-top: 38rem;
+    }
+
+    .locations-head h3 {
+        background: rgba(19, 28, 39, 0.8);
+        -webkit-text-fill-color: white;
+    }
+
+    .form-wrapper {
+        width: 100%;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer p {
+        padding: 3rem;
+    }
+}
+
 @media screen and (max-width: 400px) {
     html {
         font-size: 45%;
