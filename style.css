@@ -108,7 +108,7 @@ nav ul {
     padding-top: 0px;
     margin-top: 0px;
     display: block;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .welcome-section-title {
@@ -132,6 +132,11 @@ nav ul {
 
 .welcome-section-title {
     font-size: 7.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .hero h3 {
@@ -310,6 +315,11 @@ footer ul {
 
     .welcome-section-title {
         padding-top: 55rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .locations-head h3 {
@@ -344,7 +354,12 @@ footer ul {
     }
 
     .welcome-section-title {
-        padding-top: 38rem;
+        padding-top: 50rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .locations-head h3 {
@@ -380,6 +395,11 @@ footer ul {
 
     .welcome-section-title {
         padding-top: 18rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .locations-head h3 {
